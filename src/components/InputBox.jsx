@@ -14,7 +14,7 @@ function InputBox({
   const amountInputId = useId();
   const currencyInputId = useId();
   return (
-    <div className="inputBox m-auto bg-white rounded-3 p-5 d-flex justify-content-between ">
+    <div className="inputBox p-4 p-lg-5 m-auto bg-white rounded-3  d-flex justify-content-between flex-column flex-lg-row ">
       <div className="">
         <label className="pb-4 fs-6 fw-bold " htmlFor={amountInputId}>
           {label}

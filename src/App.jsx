@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="currency-converter">
       <div className="app w-100 h-100 d-flex justify-content-center align-items-center ">
-        <div className="appBox w-75 rounded-3 py-3">
+        <div className="container appBox  rounded-3 py-3 px-0 ">
           <form
             className="appForm"
             onSubmit={(e) => {
